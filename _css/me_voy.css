@@ -1,15 +1,16 @@
 
-
 h1{
 	color: #d7ceb2;
 	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
 	font: 90px 'BazarMedium';
 	letter-spacing: 10px;
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 h2{
-	margin-top: 30px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 	color: #d7ceb2;
 	text-shadow: 3px 3px 1px #2c2e38, 5px 5px 1px #5c5f72;
 	font: 50px 'BazarMedium';
@@ -23,7 +24,6 @@ p{
 }
 
 body{
-
 	  -webkit-box-sizing: content-box;
 	  -moz-box-sizing: content-box;
 	  box-sizing: content-box;
@@ -43,4 +43,27 @@ body{
 	  -webkit-background-size: 50px auto;
 	  background-size: 50px auto;
 
+}
+
+placeholder{
+	font-size: 5px;
+}
+
+#txtbox
+	 {
+		font-size: 15px;
+		height:25px;
+		width:130px;
+	 }
+
+.correct {
+	color: green;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.incorrect {
+	color: red;
+	font-weight: bolder;
+	font-size: 15px;
 }
