@@ -1,0 +1,17 @@
+#txtbox{
+		font-size: 15px;
+		height:25px;
+		width:130px;
+}
+
+.correct {
+	color: green;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.incorrect {
+	color: red;
+	font-weight: bolder;
+	font-size: 15px;
+}
